@@ -1,0 +1,53 @@
+JJakub Šlachta14:07
+Vue.nextTick(function () {
+        app.isChatResized = !app.isChatResized;
+      });
+Jakub Šlachta14:10
+``
+Jakub Šlachta14:11
+`img-${key}`
+Jakub Šlachta14:13
+<img v-for=path in imgPath" :src="path" alt="Placheolder" @click="showImg(path)" >
+Jakub Šlachta14:17
+:class="{'sold': stock > 0}"
+Jakub Šlachta14:19
+:class="productClasses"
+computed
+productClasses() {
+if stock > 0 return 'sold'
+}
+Jakub Šlachta14:22
+v-bind:key="attachment.id" 
+v-for="(path, i) in imgPaths"
+Jakub Šlachta14:23
+v-bind:key="`img-${i}`"
+Jakub Šlachta14:24
+yarn
+nvm
+nvm use 12.24.2
+nvm 14.07.1
+Jakub Šlachta14:26
+yarn install
+yarn watch
+Jakub Šlachta14:31
+:sale-perc="salePercent"
+salePerc
+Jakub Šlachta14:33
+onProductChange
+$('onProductChange')
+@on-product-change
+Jakub Šlachta14:34
+:class="{'active': isChatOpened}"
+Jakub Šlachta14:44
+"vue-chartjs": "^3.5.0",
+        "vue-loader": "15.9.3",
+        "vue-multiselect": "^2.1.6",
+        "vue2-datepicker": "^3.8.1",
+        "vue2-daterange-picker": "^0.6.3",
+        "vue2-editor": "^2.10.2",
+        "vuedraggable": "^2.24.3"
+cgi-tpgp-vsx
+
+
+
+
