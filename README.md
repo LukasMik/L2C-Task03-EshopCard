@@ -1,3 +1,6 @@
+My first project wich I did all by myself via VueJS.
+
+
 # Vue 3 + Vite
 
 This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
@@ -8,3 +11,5 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 # L2C-Task03-EshopCard
 # L2C-Task03-EshopCard
 # L2C-Task03-EshopCard
+
+
