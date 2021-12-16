@@ -1,15 +1,13 @@
 <template>
   <div class="card-content">
-    <p>
-      {{ itemAbout }}
-    </p>
+    <p v-html="itemAbout"></p>
   </div>
 </template>
 
 <script>
 export default {
   name: "cardContent",
-  props: ["itemAbout"]
+  props: ["item-about"],
 };
 </script>
 

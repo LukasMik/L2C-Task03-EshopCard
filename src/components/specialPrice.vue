@@ -1,5 +1,5 @@
 <template>
-  <div class="specialPrice" v-if="this.salePerc > 0">
+  <div class="specialPrice" v-show="this.salePerc > 0">
     <p>
       <span class="oldPrice">{{ itemPrice }} $</span>
       <br />
@@ -11,24 +11,24 @@
 <script>
 export default {
   name: "speacialPrice",
-  props: ["itemPrice", "salePerc"]
+  props: ["item-price", "sale-perc"],
 };
 </script>
 
 <style lang="css" scoped>
 .specialPrice {
   position: relative;
-  background-color: black;
-  border-radius: 50%;
+  top: -40rem;
+  left: 22rem;
+  z-index: 1;
   width: 6em;
   height: 6em;
+  background-color: black;
+  border-radius: 50%;
   text-align: center;
-  top: 30em;
-  left: 22em;
   color: #fff;
   font-weight: 600;
   letter-spacing: 1px;
-  z-index: 1;
 }
 
 .oldPrice {
@@ -40,7 +40,7 @@ export default {
 }
 
 p {
-    position: relative;
-    top: 1em;
+  position: relative;
+  top: 1em;
 }
 </style>
